@@ -24,7 +24,7 @@ async def play_music(msg: discord.Message):
     global is_first_song
 
     if not has_played:
-        voice_client = await msg.author.voice.channel.connect()  # VoiceClient objesi oluşturuyor
+        voice_client = await msg.author.voice.channel.connect()  # Creating VoiceClient object
 
     if (msg.content.startswith("$play")):
         try:
