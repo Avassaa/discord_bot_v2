@@ -5,8 +5,7 @@ import discord
 from bot_exceptions import NotInSameVoiceChannelError
 voice_clients = {}
 is_on_loop=False
-# BAŞKA ŞARKI EKLEYEMİYORUZ SES KANALINDA OLDUĞUNU SÖYLÜYOR
-# LOOP FONKSİYONU YOK
+
 
 song_list = []
 
